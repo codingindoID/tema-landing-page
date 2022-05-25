@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 191, 255) !important;
+}
+
+.bungkus {
+    max-width: 1980px;
+    width: 95%;
+    margin: auto;
+}
+
+.content {
+    max-width: 1980px;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(214, 240, 248) !important;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    text-align: center;
+}
+
+.nav-link {
+    color: black !important;
+    margin-top: 10px;
+}
+
+.bt-card {
+    background-color: rgb(0, 191, 255) !important;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    font-size: 0.7rem;
+}
+
+.nav-link:hover {
+    color: rgb(0, 191, 255) !important;
+}
+
+.link-card {
+    color: rgb(0, 191, 255) !important;
+    background-color: transparent;
+    padding: 5px 20px 5px 20px;
+    font-size: 0.8rem;
+    border: none;
+    font-size: 0.7rem;
+}
+
+.button {
+    background-color: rgb(0, 191, 255) !important;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-circle {
+    border: 2px solid rgb(0, 191, 255) !important;
+    color: rgb(0, 191, 255) !important;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* jumbotron */
+.jumbotron h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* jumbotron */
+
+.bg-primary {
+    background-color: rgb(0, 191, 255) !important;
+    color: white;
+}
+
+.text-primary {
+    color: rgb(0, 191, 255) !important;
+}
+
+.hero-img {
+    max-width: 800px;
+    width: 90%;
+}
+
+/* konten */
+.content .container {
+    padding: 4em 2em 4em 2em;
+}
+
+.content h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: 1rem;
+}
+
+.sub-content span {
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+
+.sub-content span i {
+    margin: auto;
+    font-size: 3rem;
+}
+
+.sub-content h5 {
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.sub-content p {
+    margin-top: 0;
+}
+
+/* end konten */
+
+/* Tampilan dekstop */
+@media (min-width: 992px) {
+    .jumbotron h1 {
+        font-size: 3rem;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        width: 35%;
+        font-size: 1.8rem;
+        margin-left: 10px;
+    }
+
+    .mid-nav {
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+    }
+
+    .nav-item a {
+        margin-right: 10px;
+    }
+
+    ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .nav-link:hover {
+        color: rgb(0, 191, 255) !important;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        height: 4px;
+        display: block;
+        background-color: rgb(0, 191, 255) !important;
+        width: 50%;
+        margin: auto;
+        margin-top: -4px;
+    }
+
+    .bt-card {
+        font-size: 1.2rem;
+    }
+
+    .nav-link:hover {
+        color: rgb(0, 191, 255) !important;
+    }
+
+    .link-card {
+        font-size: 1.2rem;
+    }
+
+    .content h2 {
+        font-size: 2.5rem;
+    }
+
+    .content p {
+        font-size: 1.2rem;
+    }
+}
